@@ -1,6 +1,6 @@
 ## Sega Saturn USB DataLink (Linux)
 
-Satlink is a Linux utility that communicates with the [Saturn USB DataLink](http://www.gamingenterprisesinc.com/DataLink/) to read memory, write memory, and launch Saturn homebrew. Satlink was developed because the original DataLink software was Linux only. 
+Satlink is a Linux utility that communicates with the [Saturn USB DataLink](http://www.gamingenterprisesinc.com/DataLink/) to read memory, write memory, and launch Saturn homebrew. Satlink was developed because the original DataLink software was Windows only. 
 
 ## Examples
 ```Bash
@@ -23,6 +23,7 @@ Examples:
 
 ### Compiling
 run 'make'
+You will require the libftdi1 and libftdi1-dev packages. 
 
 ### Credits
 - [Sega Saturn DataLink Protocol Specification V1.1](http://www.gamingenterprisesinc.com/DataLink/DataLink_Protocol_V11.pdf)

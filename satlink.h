@@ -10,6 +10,7 @@
 #include <string.h>
 #include <netinet/in.h>
 #include <ftdi.h>
+#include <unistd.h>
 
 #define DEBUG
 
