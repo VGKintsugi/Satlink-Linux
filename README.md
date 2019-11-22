@@ -23,7 +23,10 @@ Examples:
 
 ### Compiling
 run 'make'
-You will require the libftdi1 and libftdi1-dev packages. 
+
+### Compiling Issues
+Make sure you have the "libftdi1" and "libftdi1-dev" packages installed.  
+Edit the Makefile to make sure the include path to libftdh.h is correct
 
 ### Credits
 - [Sega Saturn DataLink Protocol Specification V1.1](http://www.gamingenterprisesinc.com/DataLink/DataLink_Protocol_V11.pdf)
